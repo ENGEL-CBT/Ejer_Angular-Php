@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5%;
+    color: darkslateblue;
+}
+table, tr, td {
+    border-collapse: collapse;
+    padding: 1%;
+    width: -webkit-fill-available;
+}
