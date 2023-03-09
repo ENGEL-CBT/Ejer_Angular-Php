@@ -21,7 +21,7 @@
 //     return $con;
 // }
 
-  $servername = "pruebaspipex.esy.es";
+  $servername = "localhost";
   $username = "u381394134_engel";
   $password = "Lancelot23$";
   $database = "u381394134_angular";
@@ -29,7 +29,6 @@
   $conn = mysqli_connect($servername, $username, $password, $database);
   // Check connection
   if (!$conn) {
-      echo "Error al conectar a la base de datos: " . mysqli_connect_error();
       die("Connection failed: " . mysqli_connect_error());
   }
   echo "Connected successfully";
