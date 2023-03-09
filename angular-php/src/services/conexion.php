@@ -20,20 +20,7 @@ function retornarConexion() {
       exit();
     }  
     return $con;
-}
-
-//   $servername = "localhost";
-//   $username = "u381394134_engel";
-//   $password = "Lancelot23$";
-//   $database = "u381394134_angular";
-//   // Create connection
-//   $conn = mysqli_connect($servername, $username, $password, $database);
-//   // Check connection
-//   if (!$conn) {
-//       die("Connection failed: " . mysqli_connect_error());
-//   }
-//   echo "Connected successfully";
-//   mysqli_close($conn);  
+}  
 
 ?>
 
