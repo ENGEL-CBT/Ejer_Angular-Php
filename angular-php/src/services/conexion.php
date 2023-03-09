@@ -6,7 +6,8 @@
 // }
 
 function retornarConexion() {
-    $servidor = "pruebaspipex.esy.es";
+    // $servidor = "pruebaspipex.esy.es";
+    $servidor = "localhost";
     $usuario = "u381394134_engel";
     $contraseña = "Lancelot23$";
     $base_datos = "u381394134_angular";
