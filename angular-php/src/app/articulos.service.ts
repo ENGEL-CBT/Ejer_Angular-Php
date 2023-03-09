@@ -8,7 +8,7 @@ export class ArticulosService {
 
   // url='https://scratchya.com.ar/angular/proyecto016/'; // disponer url de su servidor que tiene las páginas PHP
 
-  url='https://services.angular.pruebaspipex.esy.es/';
+  url='https://angular.pruebaspipex.esy.es/services/';
 
   constructor(private http: HttpClient) { }
 
