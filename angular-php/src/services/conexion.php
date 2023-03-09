@@ -1,24 +1,29 @@
 <?php
 
 // function retornarConexion() {
-//   // $con=mysqli_connect("localhost","root","","bd1");
+//   $con=mysqli_connect("localhost","root","","bd1");
 //   return $con;
 // }
 
-// Datos de la base de datos
-$servername = "db4free.net";
-$username = "engelcbt";
-$password = "tu_contraseña";
-$dbname = "angularphp";
-$port = 3306;
 
-// Crear una conexión
-$conn = mysqli_connect($servername, $username, $password, $dbname, $port);
-
-// Verificar si la conexión fue exitosa
-if (!$conn) {
-    die("Conexión fallida: " . mysqli_connect_error());
-}
-echo "Conexión exitosa";
+function retornarConexion() {
+    $servidor = "pruebaspipex.esy.es";
+    $usuario = "u381394134_engel";
+    $contraseña = "Lancelot23$";
+    $base_datos = "u381394134_angular";
+  
+    $con = mysqli_connect($servidor, $usuario, $contraseña, $base_datos);
+    
+    // Verifica si hay algún error en la conexión
+    if (mysqli_connect_errno()) {
+      echo "Error al conectar a la base de datos: " . mysqli_connect_error();
+      exit();
+    }
+  
+    return $con;
+  }
+  
 
 ?>
+
+
